@@ -132,7 +132,7 @@ hr{
   flex-grow: 1;
 }
 
-.ProductView {
+.product-view {
   /* Auto Layout */
   display: flex;
   flex-direction: column;
@@ -141,7 +141,8 @@ hr{
 
   position: absolute;
   width: 768px;
-  height: 531px;
+  min-height: 531px;
+  height: auto;
   left: calc(50% - 768px/2);
   top: 142px;
 }

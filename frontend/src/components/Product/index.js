@@ -13,7 +13,7 @@ export const Product = props => {
   );
 
   return(
-    <div className="ProductView">
+    <div className="product-view">
       <Header lotCode={lotCode} description={productData.description}/>
       <ProductTable productData={productData}/>
       <ProductBreakdown lotCode={lotCode}/>
