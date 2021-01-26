@@ -57,10 +57,11 @@ input[type=search]:focus {
   font-family: 'Montserrat';
 }
 
-.WineSearch {
+.wine-search {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
   padding: 0px;
 
   position: absolute;
@@ -68,6 +69,15 @@ input[type=search]:focus {
   /* height: 121px; */
   left: calc(50% - 624px/2);
   top: 142px;
+}
+
+.wine-search-header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
 }
 
 .Wine-logo {
