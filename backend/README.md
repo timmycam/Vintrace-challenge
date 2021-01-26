@@ -4,7 +4,7 @@ A simple REST APIs that returns wind data that describes a breakdown of the TOTA
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 The backend uses the supplied json files as the data store, and therefore no other connections are required for the server to run. These are in the data directory.
 
