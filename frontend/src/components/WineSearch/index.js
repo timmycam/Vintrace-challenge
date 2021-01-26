@@ -4,7 +4,7 @@ import axios from 'axios';
 import { navigate } from '@reach/router';
 import '../../App.css';
 import './WineSearch.css';
-import logo from '../../ICON.svg';
+import logo from './ICON.svg';
 
 export const WineSearch = () => {
   const [query, setQuery] = useState("");
@@ -35,8 +35,8 @@ export const WineSearch = () => {
   }
 
   return (
-    <div className="WineSearch">
-      <div className="">
+    <div className="wine-search">
+      <div className="wine-search-header">
         <h3>
           Wine search <span> <img src={logo} className="Wine-logo" alt="logo"/> </span>
         </h3>
