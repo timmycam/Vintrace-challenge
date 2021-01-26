@@ -1,0 +1,89 @@
+h3 {
+  /* position: static; */
+  /* width: 159px;
+  height: 33px;
+  left: 0px;
+  top: 16px; */
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 32px;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #0F1010;
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+  }
+  
+input[type=search]{
+  position: static;
+  width: 624px;
+  height: 48px;
+  left: 0px;
+  top: 0px;
+  border: 0;
+  /* #FFFFFF */
+
+  background: #FFFFFF;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+  
+input[type=search]:focus {
+  /* background-color: yellow; */
+  outline: none;
+}
+
+.App {
+  text-align: center;
+  background-color: #E5E5E5;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat';
+}
+
+.WineSearch {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 624px;
+  /* height: 121px; */
+  left: calc(50% - 624px/2);
+  top: 142px;
+}
+
+.Wine-logo {
+  padding-left: 10px; 
+}
+
+.search { position: relative; color: #CCCCCC; }
+.search input { text-indent: 30px;}
+.search .fa-search {
+  color: #CCCCCC;
+  position: absolute;
+  top: 18px;
+  left: 7px;
+  font-size: 15px;
+}
+
+::placeholder {
+  color: #CCCCCC;
+}
