@@ -6,20 +6,11 @@ Project containing both the frontend and back for the Vintrace coding challenge.
 
 See within each project directory for setup and running instructions.
 
+Backend runs on local 3003 by default.
+
 ### Prerequisites
 
 Backend uses node/express.js
 
 Frontend UI built using ReactJs
 
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
