@@ -24,8 +24,8 @@ export const Product = props => {
 const Header = props => {
   const {lotCode, description} = props;
   return(
-      <div className="ProductHeader">
-        <div className="HeaderContainer">
+      <div className="product-header">
+        <div className="header-container">
           <div className="Header">
             <h1><span><img src={logo} className="w-icon" alt="logo"/></span>{lotCode}</h1>
           </div>

@@ -147,7 +147,7 @@ hr{
   top: 142px;
 }
 
-.ProductHeader {
+.product-header {
   /* Auto Layout */
   display: flex;
   flex-direction: row;
@@ -168,7 +168,7 @@ hr{
   margin: 0px 9px;
 }
 
-.HeaderContainer {
+.header-container {
   /* Auto Layout */
   display: flex;
   flex-direction: column;
