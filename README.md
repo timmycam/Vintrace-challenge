@@ -1,4 +1,4 @@
-# Vintace Coding Challenge
+# Vintrace Coding Challenge
 
 Project containing both the frontend and back for the Vintrace coding challenge. The challenge includes a simple api and ui to search data by lot numbers at returns percetange of grapes in the lot by variety, vintage and region.
 

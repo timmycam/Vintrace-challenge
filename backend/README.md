@@ -1,4 +1,4 @@
-# Vintace API
+# Vintrace API
 
 A simple REST APIs that returns wind data that describes a breakdown of the TOTAL percentage of year, variety, region and year + variety information for a specific wine, ordered from highest percentage to lowest.
 

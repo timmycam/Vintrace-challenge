@@ -1,4 +1,4 @@
-# Vintace UI
+# Vintrace UI
 
 A simple UI to connect with the backend within the same repo.
 
