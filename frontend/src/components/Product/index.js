@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useQuery } from 'react-query';
+import { navigate } from '@reach/router';
 import axios from 'axios';
 import wIcon from './w-temp.png';
 import closeIcon from './Close.svg';
@@ -26,10 +27,9 @@ const Header = props => {
   const {lotCode, description} = props;
   return(
       <div className="product-header">
-        
         <div className="header-container">
           <span className="header-circle" onClick={e=>(alert("Clicked Edit Button"))}><i class="fas fa-pen header-edit-icon"></i></span>
-          <span><img src={closeIcon} onClick={()=>window.history.back()}className="header-close-icon" alt="closeIcon"/></span>
+          <span><img src={closeIcon} onClick={()=>navigate(-1)}className="header-close-icon" alt="closeIcon"/></span>
           <div className="header">
             <h1><span><img src={wIcon} className="w-icon" alt="wIcon"/></span>{lotCode}</h1>
           </div>
