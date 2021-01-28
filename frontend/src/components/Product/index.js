@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import { useQuery } from 'react-query';
 import axios from 'axios';
-import logo from './w-temp.png';
+import wIcon from './w-temp.png';
+import closeIcon from './Close.svg';
 import './Product.css';
 
 export const Product = props => {
   const { lotCode } = props;
   const [productData, setProductData] = useState({})
-  useQuery("http://localhost:3003/api/product" + `/${lotCode}`, () =>
-    axios.get("http://localhost:3003/api/product" + `/${lotCode}` )
+  useQuery("http://localhost:3003/api/product/" + `${lotCode}`, () =>
+    axios.get("http://localhost:3003/api/product/" + `${lotCode}` )
     .then( res => { setProductData(res.data) })
   );
 
@@ -25,11 +26,14 @@ const Header = props => {
   const {lotCode, description} = props;
   return(
       <div className="product-header">
+        
         <div className="header-container">
-          <div className="Header">
-            <h1><span><img src={logo} className="w-icon" alt="logo"/></span>{lotCode}</h1>
+          <span className="header-circle" onClick={e=>(alert("Clicked Edit Button"))}><i class="fas fa-pen header-edit-icon"></i></span>
+          <span><img src={closeIcon} onClick={()=>window.history.back()}className="header-close-icon" alt="closeIcon"/></span>
+          <div className="header">
+            <h1><span><img src={wIcon} className="w-icon" alt="wIcon"/></span>{lotCode}</h1>
           </div>
-          <div className="SubHeader">
+          <div className="sub-header">
             <p>{description}</p>
           </div>
         </div>
